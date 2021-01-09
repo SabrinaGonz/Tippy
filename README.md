@@ -36,7 +36,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Challenges during this project were getting the correct sizing of the tip and total labels. After some time, I relized I needed to extend the labels to allow a number to its hundredth decimal place to fit in the label. 
+Challenges during this project were getting the correct sizing of the tip and total labels. After some time, I realized I needed to extend the labels to allow a number to its hundredth decimal place to fit in the label. 
 
 ## License
 
