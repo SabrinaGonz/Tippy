@@ -67,6 +67,9 @@
                                     <segment title="18%"/>
                                     <segment title="20%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="OEK-5f-f7V"/>
+                                </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jsD-Fb-5cr">
                                 <rect key="frame" x="46" y="248" width="319" height="7"/>
@@ -84,6 +87,7 @@
                     <navigationItem key="navigationItem" title="Tip Calculator" id="QIZ-W6-HsI"/>
                     <connections>
                         <outlet property="billField" destination="pyC-Re-rxs" id="NW2-ek-5Sa"/>
+                        <outlet property="tipControl" destination="A3b-Lg-gB9" id="Wts-hd-4mY"/>
                         <outlet property="tipLabel" destination="ysS-xY-uRF" id="dJQ-tn-Va9"/>
                         <outlet property="totalLabel" destination="9pI-XX-g0D" id="Cqz-Yp-5PF"/>
                     </connections>
